@@ -6,17 +6,33 @@
 <body>
   <div>
     <div class = "header_bar">
-        <h1 class = "uhmusiclogo">
-          <img src="disk.png" width="50px" height="50px" viewBox="0 0 127 20">
-        </h1>
     </div>
-      <h2 class = "tex_logo">
-      <p><center>COOG MUSIC</center></p>
+      <h2 class = "textLogo">
+      <p>COOG MUSIC</p>
     </h2>
+    <div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+        </div>
+    <div class="login-container">
+       <h2>Login</h2>
+       <form id="login-form"  action="login.php">
+           <label for="username">CougarID</label>
+           <input type="text" id="username" name="username" required>
+
+           <label for="password">Password:</label>
+           <input type="password" id="password" name="password" required>
+
+           <input type="submit" value="Login">
+       </form>
+   </div>
   </div>
   <div class = "flex">
-      <p> HELLO EVERYONE THIS IS BELOW THE LOGO</p>
+      <p></p>
   <div>
 </body>
-
 </html>
